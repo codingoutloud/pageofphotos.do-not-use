@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "PageofPhotos", "PageofPhotos\PageofPhotos.ccproj", "{79F47C6F-3E02-43B5-8854-46BFD8D5AF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageOfPhotosWebRole", "PageOfPhotosWebRole\PageOfPhotosWebRole.csproj", "{F40D99F8-D705-450E-B754-A41DECEBB72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageOfPhotosWebRole.Tests", "PageOfPhotosWebRole.Tests\PageOfPhotosWebRole.Tests.csproj", "{DF87EF8E-8BFA-4C15-B5D0-3729C405395E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F47C6F-3E02-43B5-8854-46BFD8D5AF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F47C6F-3E02-43B5-8854-46BFD8D5AF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F47C6F-3E02-43B5-8854-46BFD8D5AF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F47C6F-3E02-43B5-8854-46BFD8D5AF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40D99F8-D705-450E-B754-A41DECEBB72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40D99F8-D705-450E-B754-A41DECEBB72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40D99F8-D705-450E-B754-A41DECEBB72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40D99F8-D705-450E-B754-A41DECEBB72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF87EF8E-8BFA-4C15-B5D0-3729C405395E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF87EF8E-8BFA-4C15-B5D0-3729C405395E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF87EF8E-8BFA-4C15-B5D0-3729C405395E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF87EF8E-8BFA-4C15-B5D0-3729C405395E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

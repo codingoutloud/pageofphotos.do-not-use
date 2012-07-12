@@ -1,0 +1,17 @@
+﻿@model PageOfPhotosWebRole.Models.PageModel
+
+@{
+    ViewBag.Title = "Page Index";
+}
+
+<h2>There are <span>@Model.Slugs.Count</span> slugs.</h2>
+
+<fieldset>
+   <legend>Legendary</legend>
+   <ol>
+   @foreach (var item in Model.Slugs)
+   {
+      <li>@Html.ActionLink(@item.Name,@item.Name,"Page")</li>
+   }
+   </ol>
+</fieldset>

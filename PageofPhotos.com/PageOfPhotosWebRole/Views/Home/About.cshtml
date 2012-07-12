@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        Page of Photos, or PoP for short, is a asp.net MVC web application to accompany the book [name of book].
+        The primary function of the app is, as the name implies, to display photos on a web page.
+        It <i>will</i> be possible to create an account and upload photos or view photos without an account.
+        PoP uses asp.net MVC
+    </p>
+
+    <p>
+        [<i>Description</i>]
+    </p>
+
+    <p>
+        [<i>Description</i>]
+    </p>
+</article>
+
+<aside>
+    <h3>Aside Title</h3>
+    <p>
+        Fusce facilisis ullamcorper consequat. Vestibulum non sapien lectus. Nam 
+        mi augue, posuere at tempus vel, dignissim vitae nulla.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("The Book", "Book", "Home")</li>
+        <li>@Html.ActionLink("Page Index", "Index", "Page")</li>
+    </ul>
+</aside>

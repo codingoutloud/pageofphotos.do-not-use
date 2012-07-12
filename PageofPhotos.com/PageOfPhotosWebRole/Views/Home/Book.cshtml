@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "The Book";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        [name of book] is a book about cloud architecture written by Bill Wilder.
+        It attempts to provide a basic understanding of some key concepts in software architecture and how they relate to cloud computing.
+        These include 
+    </p>
+</article>
+
+<aside>
+    <h3>Aside Title</h3>
+    <p>
+        Fusce facilisis ullamcorper consequat. Vestibulum non sapien lectus. Nam 
+        mi augue, posuere at tempus vel, dignissim vitae nulla.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("The Book", "Book", "Home")</li>
+        <li>@Html.ActionLink("Page Index", "Index", "Page")</li>
+    </ul>
+</aside>

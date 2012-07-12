@@ -1,0 +1,117 @@
+# http://stackoverflow.com/questions/2143956/gitignore-for-visual-studio-projects-and-solutions
+
+foo.txt
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#MS Test files
+# *.vsmdi
+#local.testsettings
+#*.testsettings
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+packages/
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
+
+#ignore build dirs
+obj
+bin
+
+#ignore cloud runtime dirs
+csx
+
+#ignore nuget dir
+packages
+
+#ignore user files
+*.suo
+*.user
+
+#ignore 7zip; users will need to download this on their own
+7za.exe
+
+# don't ignore this /.gitignore
+
+#Ignore files build by Visual Studio
+*.obj
+*.dll
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+deploy.config
+Examples*/
+*.vsmdi
+*.pidb
+*.userprefs
+*.testrunconfig
+publish.xml
+TestResults
+*.dotCover

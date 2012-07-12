@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="PageofPhotos" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+  <Role name="PageOfPhotosWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="StorageConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="pop" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEEBcI0LPeLODSpTGeOfMf+IwDQYJKoZIhvcNAQEBBQAEggEAJdOLhRlxwCEQPq4WCgbR9Ttg9fajifxhS+HuPmeCsD7LJgC4VMmJ6B4lu0IKIci6YHF/gOrV+45kgSCYiqqp7dmnvB+EXgeHHDHnZVdl1PhevNiuL8or7XMuZG5PW153oj3CW7WHe8w5JOxFhugygOQDTDt7ERadXu5JyxJURvtTx2v1tVQGts5Mhoj422LP4WkR1zNLyri8KphWyUOUPgskzLLaaS68YTn8MSVvehTlzE0wDX2GwiqHX6QeXjJFFJdspGS1Lxr3fgNPrZZq76kEWTOR38Dsgxpc/krjfDsM7TPoYzo2mQ1IouBsy4C51FzHYiiHJ2bR38IUxJHYhzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECE+6emCZNABhgBDhPx1UsGFToXV3HGx4DKi7" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2013-07-09T23:59:59.0000000-04:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="C2C07D40260CC3755A54089ABF5D8C2113A2999B" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

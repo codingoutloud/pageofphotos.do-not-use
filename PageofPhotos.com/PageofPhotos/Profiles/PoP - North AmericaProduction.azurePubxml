@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AzureCredentials>PoP</AzureCredentials>
+    <AzureHostedServiceName>pageofphotos</AzureHostedServiceName>
+    <AzureHostedServiceLabel>PoP - North America</AzureHostedServiceLabel>
+    <AzureSlot>Production</AzureSlot>
+    <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
+    <AzureStorageAccountName>1940census</AzureStorageAccountName>
+    <AzureStorageAccountLabel>1940census</AzureStorageAccountLabel>
+    <AzureDeploymentLabel>PageofPhotos</AzureDeploymentLabel>
+    <AzureSolutionConfiguration>Release</AzureSolutionConfiguration>
+    <AzureServiceConfiguration>Cloud</AzureServiceConfiguration>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <AzureAllowUpgrade>True</AzureAllowUpgrade>
+    <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>
+  </PropertyGroup>
+</Project>
