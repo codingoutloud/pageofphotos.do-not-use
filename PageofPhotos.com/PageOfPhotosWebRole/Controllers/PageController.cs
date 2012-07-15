@@ -19,7 +19,8 @@ namespace PageOfPhotosWebRole.Controllers
       {
          var slug1 = new Slug { Name = "kevin" };
          var slug2 = new Slug { Name = "bill" };
-         var slugList = new List<Slug> { slug1, slug2 };
+         var slug3 = new Slug { Name = "timothy" };
+         var slugList = new List<Slug> { slug1, slug2, slug3 };
          var fakePageModel = new PageModel { Slugs = slugList };
 
          return fakePageModel;
